@@ -10,7 +10,11 @@ body {
 }
 p {
   font-family: var(--font2);
-  margin: auto;
+  width: 300px;
+  border: 15px inset rgb(0, 245, 150);
+  padding: 20px;
+  margin: 40px;
+  outline: 4px inset black;
 }
 table,
 th,
@@ -42,4 +46,9 @@ a:active {
   background-color: var(--color);
   color: yellow;
   text-decoration: underline;
+}
+div {
+  width: 320px;
+  border: 5px inset gray;
+  padding: 10px;
 }
