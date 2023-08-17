@@ -1,0 +1,32 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(csstest.png);
+}
+table,
+th,
+td {
+  border-width: 1px;
+  border-style: inset;
+  border-color: black;
+  border-radius: 5px;
+}
+a:link {
+  background-color: transparent;
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  background-color: transparent;
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  background-color: transparent;
+  color: red;
+  text-decoration: underline;
+}
+a:active {
+  background-color: transparent;
+  color: yellow;
+  text-decoration: underline;
+}
