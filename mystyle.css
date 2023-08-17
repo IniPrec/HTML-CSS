@@ -1,6 +1,16 @@
+:root {
+  --font1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --color: transparent;
+  --decoration: none;
+  --font2: Cambria;
+}
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: var(--font1);
   background-image: url(csstest.png);
+}
+p {
+  font-family: var(--font2);
+  margin: auto;
 }
 table,
 th,
@@ -9,24 +19,27 @@ td {
   border-style: inset;
   border-color: black;
   border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 a:link {
-  background-color: transparent;
+  background-color: var(--color);
   color: blue;
-  text-decoration: none;
+  text-decoration: var(--decoration);
 }
 a:visited {
-  background-color: transparent;
+  background-color: var(--color);
   color: purple;
-  text-decoration: none;
+  text-decoration: var(--decoration);
 }
 a:hover {
-  background-color: transparent;
+  background-color: var(--color);
   color: red;
   text-decoration: underline;
 }
 a:active {
-  background-color: transparent;
+  background-color: var(--color);
   color: yellow;
   text-decoration: underline;
 }
