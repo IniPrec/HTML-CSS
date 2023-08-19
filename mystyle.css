@@ -3,6 +3,8 @@
   --color: transparent;
   --decoration: none;
   --font2: Cambria;
+  --shadowcolor: #ff0000;
+  --textcolor: black;
 }
 body {
   font-family: var(--font1);
@@ -15,6 +17,8 @@ p {
   padding: 20px;
   margin: 40px;
   outline: 4px inset black;
+  text-shadow: 0 0 3px var(--shadowcolor), 0 0 5px #0000ff;
+  color: var(--textcolor);
 }
 table,
 th,
