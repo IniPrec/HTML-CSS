@@ -6,6 +6,8 @@
   --shadowcolor: #ff0000;
   --textcolor: black;
   --textstyle: italic;
+  --weight: bold;
+  --transform: uppercase;
 }
 body {
   font-family: var(--font1);
@@ -39,6 +41,8 @@ td {
 }
 th {
   font-style: normal;
+  font-weight: var(--weight);
+  text-transform: var(--transform);
 }
 a:link {
   background-color: var(--color);
