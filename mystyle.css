@@ -1,8 +1,8 @@
 :root {
-  --font1: Lucida Console;
+  --font1: "Lucida Console";
   --color: transparent;
   --decoration: none;
-  --font2: Lucida Handwriting;
+  --font2: "Lucida Handwriting";
   --shadowcolor: #ff0000;
   --textcolor: black;
 }
