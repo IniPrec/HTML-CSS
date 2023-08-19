@@ -1,8 +1,8 @@
 :root {
-  --font1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --font1: Lucida Console;
   --color: transparent;
   --decoration: none;
-  --font2: Cambria;
+  --font2: Lucida Handwriting;
   --shadowcolor: #ff0000;
   --textcolor: black;
 }
