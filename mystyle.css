@@ -5,6 +5,7 @@
   --font2: "Times New Roman";
   --shadowcolor: #ff0000;
   --textcolor: black;
+  --textstyle: italic;
 }
 body {
   font-family: var(--font1);
@@ -19,6 +20,7 @@ p {
   outline: 4px inset black;
   text-shadow: 0 0 3px var(--shadowcolor), 0 0 5px #0000ff;
   color: var(--textcolor);
+  font-style: var(--textstyle);
 }
 table,
 th,
@@ -30,6 +32,13 @@ td {
   width: 100px;
   padding: 10px;
   box-sizing: border-box;
+}
+table,
+td {
+  font-style: var(--textstyle);
+}
+th {
+  font-style: normal;
 }
 a:link {
   background-color: var(--color);
