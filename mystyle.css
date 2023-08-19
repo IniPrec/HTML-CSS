@@ -8,6 +8,8 @@
   --textstyle: italic;
   --weight: bold;
   --transform: uppercase;
+  --size1: 40px;
+  --size2: 20px;
 }
 body {
   font-family: var(--font1);
@@ -23,6 +25,7 @@ p {
   text-shadow: 0 0 3px var(--shadowcolor), 0 0 5px #0000ff;
   color: var(--textcolor);
   font-style: var(--textstyle);
+  font-size: var(--size2);
 }
 table,
 th,
@@ -38,11 +41,13 @@ td {
 table,
 td {
   font-style: var(--textstyle);
+  font-size: var(--size2);
 }
 th {
   font-style: normal;
   font-weight: var(--weight);
   text-transform: var(--transform);
+  font-size: var(--size1);
 }
 a:link {
   background-color: var(--color);
